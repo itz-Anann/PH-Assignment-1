@@ -14,6 +14,7 @@
 }
 .bg-img {
   background-image: url("../styles/Assets/Hero-bg.png");
+  height: 100%;
 }
 /* nav section */
 .h3-nav {
@@ -32,6 +33,7 @@
   margin-right: 100px;
 }
 .Button2 {
+  margin-top: 50px;
   margin-bottom: 150px;
 }
 .button-color {
@@ -42,23 +44,30 @@
 
   padding: 14px 30px 16px 32px;
   border-radius: 10px;
+  cursor: pointer;
   border-style: none;
   border: none;
+  
+}
+.button-color:hover{
+  background-color: black;
 }
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 50px;
+  margin-top: 0;
+  margin-left: 50px;
+  margin-right: 50px;
   align-content: center;
 }
 /* banner */
 .banner {
   text-align: center;
-  font-weight: bold;
+   font-weight: bold;
   margin-top: 309px;
   margin-left: 267px;
   margin-right: 267px;
-  font-size: 35px;
+  font-size: 75px;
   color: #252432;
 }
 /* action */
@@ -66,7 +75,8 @@ h4 {
   font-weight: bold;
   margin-top: 175px;
   margin-left: 100px;
-  font-size: 42px;
+  margin-bottom: 30px;
+  font-size: 46px;
   color: #252432;
 }
 .action {
@@ -78,12 +88,15 @@ h4 {
 }
 .action-p {
   color: #252432;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 200;
   margin-left: 100px;
+  margin-top: 0;
 }
 .action-button {
   margin-left: 100px;
+  font-size: 16px;
+  font-weight: 600;
 }
 .action-image {
   border-radius: 48px;
@@ -103,7 +116,7 @@ h5 {
 .productive-container {
   display: flex;
   justify-content: space-between;
-  gap: 200px;
+  gap: 100px;
   padding: 0 142px;
   padding-top: 5px;
 }
@@ -131,6 +144,7 @@ h5 {
 /* get in touch */
 .get-in-touch-parents {
   display: flex;
+  justify-content: space-between;
   gap: 115px;
   margin-left: 200px;
   margin-right: 200px;
@@ -176,7 +190,9 @@ h2 {
 /* footer section */
 .footer-container {
   text-align: center;
-  margin: 110px 455px;
+  margin-top: 103px ;
+  margin-bottom: 104px;
+  
 }
 h1 {
   font-size: 109px;
@@ -211,7 +227,7 @@ h1 {
   font-size: 25px;
 }
 .review-p {
-  font-weight: 300;
+  font-weight: 500;
 }
 .flex-remover {
   flex-direction: column;
@@ -232,8 +248,28 @@ h1 {
 }
 .review-box {
   display: flex;
+  justify-content: space-between;
   gap: 40px;
   margin-left: 250px;
   margin-right: 250px;
   margin-bottom: 150px;
+}
+/* ready to focus section  */
+.ready-h3{
+  color: #000000;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.ready-p{
+  color: rgba(0, 0, 0, 0.5);
+}
+.ready-to-focus-section{
+  text-align: center;
+  border-radius: 14px;
+}
+.ready-img{
+  margin-top: 30px;
+  margin-bottom: 200px;
+  border-radius: 48px;
 }
