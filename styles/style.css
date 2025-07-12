@@ -148,7 +148,7 @@ h2 {
 .input-box {
   border-radius: 10px;
   background-color: #ffffff;
-   border-color: #D6DDED;
+  border-color: #d6dded;
   font-size: 16px;
 
   padding: 20px;
@@ -172,4 +172,25 @@ h2 {
   height: 50px;
   text-align: center;
   margin-bottom: 71px;
+}
+/* footer section */
+.footer-container {
+  text-align: center;
+  margin: 110px 455px;
+}
+h1 {
+  font-size: 109px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.footer-p {
+  margin-top: 0;
+  margin-left: 50px;
+  color: #8987a1;
+  margin-bottom: 40px;
+}
+.footer-link {
+  color: #8987a1;
+  margin: 0 30px;
+  text-decoration: none;
 }
